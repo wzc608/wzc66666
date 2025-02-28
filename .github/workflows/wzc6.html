@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大学生原创投稿网站</title>
+    <style>
+        /* 整体页面样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 导航栏样式 */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            cursor: pointer;
+        }
+
+        /* 轮播图区域样式 */
+      .slider {
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+
+      .slider img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* 内容展示区域样式 */
+      .content {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+      .content-section {
+            width: 45%;
+            background-color: #fff;
+            padding: 15px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+
+        /* 底部样式 */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li>首页</li>
+            <li>诗歌投稿</li>
+            <li>小说投稿</li>
+            <li>作品展示</li>
+            <li>关于我们</li>
+        </ul>
+    </nav>
+    <!-- 轮播图 -->
+    <div class="slider">
+        <img src="slider-image.jpg" alt="轮播图">
+    </div>
+    <!-- 内容展示区 -->
+    <div class="content">
+        <div class="content-section">
+            <h2>最新诗歌投稿</h2>
+            <ul>
+                <li>标题：[诗歌标题1]，作者：[作者1]，摘要：[诗歌摘要1]，投稿时间：[投稿时间1]</li>
+                <li>标题：[诗歌标题2]，作者：[作者2]，摘要：[诗歌摘要2]，投稿时间：[投稿时间2]</li>
+            </ul>
+        </div>
+        <div class="content-section">
+            <h2>最新小说投稿</h2>
+            <ul>
+                <li>章节标题：[小说章节标题1]，作者：[作者3]，亮点描述：[小说亮点1]</li>
+                <li>章节标题：[小说章节标题2]，作者：[作者4]，亮点描述：[小说亮点2]</li>
+            </ul>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <footer>
+        &copy; 2025 版权所有，联系方式：[邮箱]，[微信公众号链接]，[微博链接]
+    </footer>
+</body>
+
+</html>
